@@ -1,0 +1,19 @@
+{
+    "full_name": "First LastName",
+    "email": "Your address email (eg. you@example.com)",
+
+    "project_name": "Project name",
+    "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
+    "project_desc": "Describe the project.",
+    "project_website": "http://www.vliz.be/",
+    "version":"0.0.1",
+
+    "module_name": "{{cookiecutter.project_slug}}",
+    "base_name": "base",
+
+    "git_remote": "Git remote (if known)",
+    "_extensions": ["jinja2_time.TimeExtension"],
+    "python_version":"3.10",
+    "poetry_version":"1.5.0"
+
+}
