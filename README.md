@@ -41,10 +41,10 @@ You will be asked to provide:
 Generate a new py module project folder using:
 
 ```
-cookiecutter git@gitlab.vliz.be:datac/templating/cookiecutter-py-module.git
+cookiecutter git@github.com:vliz-be-opsci/cookiecutter-py-module.git.git
 ```
 
-**Tip**: prepare your [gitlab](http://gitlab.vliz.be) repository for the new project up front, and have its remote-url at hand when running this:
+**Tip**: prepare your [github](https://github.com/vliz-be-opsci) repository for the new project up front, and have its remote-url at hand when running this:
 it will automatically add your project to gitlab and add some basis ci/cd setting
 
 
@@ -101,7 +101,7 @@ $ make test                                     # check run tests
 $ cp dotenv.example .env                        # add local .env from example
 $ python tests/test_demo.py                     # check logging statements for specific test
 $ make check                                    # check flake8
-$ make docu                                     # check generating docs
+$ make docs                                     # check generating docs
 $ make build                                    # check generating a package
 $ make release                                  # check tagging a release -- one can ignore the fail on git push if no git-remote was given
 $ git tag                                       # check the release tag
