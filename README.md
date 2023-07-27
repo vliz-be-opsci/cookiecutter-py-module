@@ -41,7 +41,7 @@ You will be asked to provide:
 Generate a new py module project folder using:
 
 ```
-cookiecutter git@github.com:vliz-be-opsci/cookiecutter-py-module.git.git
+cookiecutter git@github.com:vliz-be-opsci/cookiecutter-py-module.git
 ```
 
 **Tip**: prepare your [github](https://github.com/vliz-be-opsci) repository for the new project up front, and have its remote-url at hand when running this:
