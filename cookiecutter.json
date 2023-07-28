@@ -1,12 +1,12 @@
 {
-    "full_name": "First LastName",
-    "email": "Your address email (eg. you@example.com)",
+    "full_name": "Vlaams Instituut voor de Zee (VLIZ)",
+    "email": "opsci-dev@vliz.be",
 
-    "project_name": "Project name",
+    "project_name": "my-python-project",
     "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
     "project_desc": "Describe the project.",
-    "project_website": "http://www.vliz.be/",
-    "version":"0.0.1",
+    "project_website": "https://open-science.vliz.be/{{cookiecutter.project_name}}",
+    "version":"0.1.0",
 
     "module_name": "{{cookiecutter.project_slug}}",
     "base_name": "base",
