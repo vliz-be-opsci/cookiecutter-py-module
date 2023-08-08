@@ -1,19 +1,20 @@
 {
     "full_name": "First LastName",
     "email": "Your address email (eg. you@example.com)",
+    "author": "Vlaams Instituut voor de Zee (VLIZ)",
 
     "project_name": "Project name",
     "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
     "project_desc": "Describe the project.",
-    "project_website": "http://www.vliz.be/",
-    "version":"0.0.1",
+    "project_website": "https://open-science.vliz.be/{{cookiecutter.project_slug}}",
+    "version":"0.1.0",
 
     "module_name": "{{cookiecutter.project_slug}}",
     "base_name": "base",
 
-    "git_remote": "Git remote (if known)",
+    "git_remote": "https://github.com/vliz-be-opsci/{{cookiecutter.project_slug}}",
     "_extensions": ["jinja2_time.TimeExtension"],
-    "python_version":"3.10",
+    "python_version":"3.8",
     "poetry_version":"1.5.0"
 
 }
